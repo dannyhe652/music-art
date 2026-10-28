@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+
+# Intermediate pipeline output (regenerated from audio)
+stage1_qc/
+stage2_analysis/
+stage3_emotion/
+stage4_mapping/
+stage5_artworks/
+
+# Audio sources are not redistributed
+*.wav
+*.mp3
+*.mov
+*.flac
